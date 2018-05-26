@@ -1,6 +1,8 @@
+package Compression.src;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
+
 
 public class HEncoder {
 
@@ -10,6 +12,7 @@ public class HEncoder {
 	private static class Node {
 
 		Character ch;
+		Character chi;
 		Integer freq;
 		Node left;
 		Node right;
