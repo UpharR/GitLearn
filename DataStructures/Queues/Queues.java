@@ -1,3 +1,4 @@
+package DataStructures.Queues;
 /**
  * This implements Queues by using the class Queue.
  * 
@@ -40,6 +41,7 @@ class Queue{
 	 * @return True if the element was added successfully
 	 */
 	public boolean insert(int x){
+		System.out.println("Learning the stash command");
 		if(isFull())
 			return false;
 		if(rear == maxSize-1) //If the back of the queue is the end of the array wrap around to the front
