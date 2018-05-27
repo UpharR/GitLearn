@@ -1,3 +1,4 @@
+package DataStructures.Queues;
 /**
  * This class implements a PriorityQueue.
  * 
@@ -24,6 +25,7 @@ class PriorityQueue{
 	 * @param size Size of the queue
 	 */
 	public PriorityQueue(int size){
+		System.out.println("Lets see wht the fuss is all about");
 		maxSize = size;
 		queueArray = new int[size];
 		nItems = 0;
