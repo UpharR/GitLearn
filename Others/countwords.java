@@ -1,3 +1,4 @@
+package Others;
 import java.util.Scanner;
 
 /**
@@ -10,6 +11,7 @@ import java.util.Scanner;
   public class countwords{
 
 	public static void main(String[] args){
+		System.out.println("Count the number of words");
 	  Scanner input = new Scanner(System.in);
           System.out.println("Enter your text: ");
           String str = input.nextLine();
